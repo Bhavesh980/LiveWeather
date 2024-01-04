@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather Forecasting</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+
+</head>
+<body>
+        <div class="upperDiv">
+            <div id="d_serach">
+                <input id="ip_city" type="search" placeholder="City">
+                <img id="btn_search" src="./Images/images/search.png" alt="">
+            </div>
+
+            <div id="error">
+                <p>Invalid City Name</p>
+            </div>
+
+            <div id="d_details">
+                <img id="img_weather" src="./Images/images/clouds.png" alt="">
+                <h1 id="op_temp">26°C </h1>
+                <h2 id="op_city">Mumbai</h2>
+                <div id="d_innerDetails">
+                    <div>
+                        <img src="./Images/images/humidity.png" alt="">
+                        <div>
+                            <h3 id="op_humidity">90%</h3>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./Images/images/wind.png" alt="">
+                        <div>
+                            <h3 id="op_wind">2.68km/h</h3>
+                            <p>wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="./script.js"></script>
+</html>
